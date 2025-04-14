@@ -1,0 +1,48 @@
+* {
+    border-bottom: none;
+}
+
+@media (max-width: 376px) {
+
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .top {
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0) -7.355%,
+            rgb(0, 9, 21) 100%), 
+        url('img/mobile-top.jpeg');
+        height: 735px;
+    }
+
+    .top__title {
+        font-size: 32px;
+        line-height: 39px;
+        text-align: center;
+    }
+
+    .top__text {
+        font-size: 14px;
+        line-height: 22px;
+        text-align: center;
+    }
+
+    .top__button_box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .catalog {
+        background-color: rgb(0, 9, 21);
+        height: 1221px;
+    }
+
+    .catalog__games {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 16px;
+        row-gap: 32px;
+    }
+}   
