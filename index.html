@@ -1,29 +1,49 @@
 <html lang="ru">
- <head>
-     <meta charset="UTF-8">
-     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Главная страница</title>
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
-     <link rel="stylesheet" href="style.css">
-     <link rel="stylesheet" href="mobile.css">
- </head>
- <body>
-     <section class="top center">
-     <h1 class="top__title">Добро пожаловать на мой сайт !</h1>
-     <p class="top__text">Вам предстоит пройти несколько увлекательных игр. Если готов нажимай <span class="top__text_bold">поехали</span> и <span class="top__text_bold">приступай</span></p>
-     <div class="top__button_box">
-     <button class="top__button">Поехали!</button>
-    </div>
- </section>
- <section class="catalog center"> 
-    <div class="catalog__games">
-     <article class="catalog__game_img catalog__game-1" alt="game-1">Игра-1</article>
-     <article class="catalog__game_img catalog__game-2" alt="game-2">Игра-2</article>
-     <article class="catalog__game_img catalog__game-3" alt="game-2">Игра-3</article>
- </div>
- </section>
- </body>
- </html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Главная страница</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
+</head>
+
+<body>
+    <section class="top center">
+        <h1 class="top__title">Добро пожаловать на мой сайт !</h1>
+        <p class="top__text">Вам предстоит пройти несколько увлекательных игр. Если готов нажимай <span
+                class="top__text_bold">поехали</span> и <span class="top__text_bold">приступай</span></p>
+        <div class="top__button_box">
+            <button class="top__button">Поехали!</button>
+        </div>
+    </section>
+    <section class="catalog center">
+        <div class="catalog__games">
+            <a class="catalog__game_img catalog__game-1" href="#" alt="game-1">Игра-1</a>
+            <a class="catalog__game_img catalog__game-2" href="#" alt="game-2">Игра-2</a>
+            <a class="catalog__game_img catalog__game-3" href="#" alt="game-2">Игра-3</a>
+        </div>
+    </section>
+    <section class="seasons center">
+        <div class="seasons__wrapper">
+          <div class="seasons__content">
+            <h1 class="seasons__title">Времена года!</h1>
+            <p class="seasons__text">
+              Нажмите кнопку играть, введите номер месяца (от&nbsp;1&nbsp;до&nbsp;12)&nbsp;и&nbsp;вы узнаете к&nbsp;какому времени года он&nbsp;относится
+            </p>
+            <div class="seasons__button_box">
+              <button class="seasons__button">Играть!</button>
+            </div>
+          </div>
+          <picture>
+            <img class="seasons__img" src="img/seasons-img.svg" alt="seasons-img">
+          </picture>
+        </div>
+      </section>
+</body>
+
+</html>
