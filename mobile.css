@@ -1,6 +1,5 @@
 * {
     border-bottom: none;
-
 }
 
 @media (max-width: 376px) {
@@ -52,6 +51,16 @@
         height: 653.61px;
     }
 
+    .seasons__wrapper {
+        gap: 0;
+    }
+
+    .seasons__img {
+        margin-bottom: 85px;
+        width: 344px;
+        height: 236px;
+    }
+
     .seasons__title {
         font-size: 32px;
         line-height: 39px;
@@ -70,12 +79,39 @@
         align-items: center;
     }
 
-    .seasons__img {
-        position: absolute;
-        left: 16px;
-        top: 2288.6px;
-        padding-top: 64px;
+    .remember {
+        display: flex;
+        gap: 135px;
+        height: 653.61px; 
+    }
+
+    .remember__wrapper {
+        padding-bottom: 90px;
+        gap: 64px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .remember__img {
         width: 344px;
-        height: 236px;
+        height: 236px;  
+    }
+
+    .remember__title {
+        font-size: 32px;
+        line-height: 39px;
+        text-align: center; 
+    }
+
+    .remember__text {
+        font-size: 14px;
+        line-height: 22px;
+        text-align: center;  
+    }
+
+    .remember__button_box {
+        display: flex;
+        justify-content: center;
+        align-items: center;   
     }
 }   
